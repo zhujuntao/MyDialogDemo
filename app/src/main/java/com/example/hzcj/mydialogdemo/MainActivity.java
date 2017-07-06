@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView tv_alert= (TextView) findViewById(R.id.tv_alert);
+        //设置监听事件
         tv_alert.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
